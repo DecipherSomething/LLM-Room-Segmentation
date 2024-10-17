@@ -1,9 +1,5 @@
 # **Semantic Layering in Room Segmentation via LLMs (SeLRoS)**
 
-[Taehyeon Kim](https://github.com/QualiaT) and Byung-Cheol Min.
-
-[Project Page](https://sites.google.com/view/selros)
-
 Code repository for Semantic Layering in Room Segmentation via LLMs (SeLRoS). This repository includes 2D Map generation code and Room Information Interpreter code, and a data set containing ground truth, object information file, top view image, and room segmentation results for each environment for an experiment in 30 environments.
 
 
@@ -12,10 +8,6 @@ Install dependencies:
 ```
 pip install -r requirments.txt
 ```
-For more details, please check the following link [ProcTHOR](https://github.com/allenai/procthor).
-
-
-
 
 
 ## Running Script
@@ -53,16 +45,3 @@ Refer to ```data\selros\``` for the final room segmentation results using SeLRoS
 Refer to ```data\top_view\``` for the top view image of each environment.
 
 Refer to ```data\vrf\``` for the room segmentation results using Voronoi Random Field algorithm and related information (each segmented room's center coordinate and color).
-
-
-
-## Citation
-If you find this work useful for your research, please consider citing:
-```
-@article{kim2024semantic,
-  title={Semantic Layering in Room Segmentation via LLMs},
-  author={Kim, Taehyeon and Min, Byung-Cheol},
-  journal={arXiv preprint arXiv:2403.12920},
-  year={2024}
-}
-```
